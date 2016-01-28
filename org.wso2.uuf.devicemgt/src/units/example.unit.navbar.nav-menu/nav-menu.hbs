@@ -1,0 +1,23 @@
+{{#zone "navMenu-icon"}}
+    <span class="icon fw-stack">
+        <i class="fw fw-tiles fw-stack-1x"></i>
+    </span>
+{{/zone}}
+
+{{#zone "navMenu-items"}}
+    <li id="apim-nav-menu-item-1">
+        <a href="{{@app.context}}/">
+            <i class="icon fw fw-dashboard"></i> Admin Dashboard
+        </a>
+    </li>
+    <li id="apim-nav-menu-item-2">
+        <a href="{{@app.context}}/users">
+            <i class="icon fw fw-user"></i> User Management
+        </a>
+    </li>
+    <li id="appm-nav-menu-item-1">
+        <a href="{{@app.context}}/roles">
+            <i class="icon fw fw-bookmark"></i> Role Management
+        </a>
+    </li>
+{{/zone}}
