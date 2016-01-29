@@ -32,5 +32,9 @@
             <directory>${project.build.directory}/org.wso2.identity.uuf.auth</directory>
             <outputDirectory>/components/org.wso2.identity.uuf.auth</outputDirectory>
         </fileSet>
+        <fileSet>
+            <directory>${project.build.directory}/uuf-libary</directory>
+            <outputDirectory>/</outputDirectory>
+        </fileSet>
     </fileSets>
 </assembly>
