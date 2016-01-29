@@ -10,19 +10,19 @@
     <fileSets>
         <fileSet>
             <directory>${project.basedir}/src/layouts</directory>
-            <outputDirectory>/org.wso2.identity.uuf.auth/layouts</outputDirectory>
+            <outputDirectory>/${project.artifactId}/layouts</outputDirectory>
         </fileSet>
         <fileSet>
             <directory>${project.basedir}/src/modules</directory>
-            <outputDirectory>/org.wso2.identity.uuf.auth/modules</outputDirectory>
+            <outputDirectory>/${project.artifactId}/modules</outputDirectory>
         </fileSet>
         <fileSet>
             <directory>${project.basedir}/src/pages</directory>
-            <outputDirectory>/org.wso2.identity.uuf.auth/pages</outputDirectory>
+            <outputDirectory>/${project.artifactId}/pages</outputDirectory>
         </fileSet>
         <fileSet>
             <directory>${project.basedir}/src/units</directory>
-            <outputDirectory>/org.wso2.identity.uuf.auth/units</outputDirectory>
+            <outputDirectory>/${project.artifactId}/units</outputDirectory>
         </fileSet>
     </fileSets>
 </assembly>
