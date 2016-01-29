@@ -10,23 +10,27 @@
     <fileSets>
         <fileSet>
             <directory>${project.basedir}/src/conf</directory>
-            <outputDirectory>org.wso2.uuf.devicemgt/conf</outputDirectory>
+            <outputDirectory>/app/conf</outputDirectory>
         </fileSet>
         <fileSet>
             <directory>${project.basedir}/src/layouts</directory>
-            <outputDirectory>org.wso2.uuf.devicemgt/layouts</outputDirectory>
+            <outputDirectory>/app/layouts</outputDirectory>
         </fileSet>
         <fileSet>
             <directory>${project.basedir}/src/modules</directory>
-            <outputDirectory>org.wso2.uuf.devicemgt/modules</outputDirectory>
+            <outputDirectory>/app/modules</outputDirectory>
         </fileSet>
         <fileSet>
             <directory>${project.basedir}/src/pages</directory>
-            <outputDirectory>org.wso2.uuf.devicemgt/pages</outputDirectory>
+            <outputDirectory>/app/pages</outputDirectory>
         </fileSet>
         <fileSet>
             <directory>${project.basedir}/src/units</directory>
-            <outputDirectory>org.wso2.uuf.devicemgt/units</outputDirectory>
+            <outputDirectory>/app/units</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>${project.build.directory}/org.wso2.identity.uuf.auth</directory>
+            <outputDirectory>/components/org.wso2.identity.uuf.auth</outputDirectory>
         </fileSet>
     </fileSets>
 </assembly>
