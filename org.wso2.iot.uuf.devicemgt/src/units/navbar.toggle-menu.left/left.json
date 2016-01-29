@@ -1,0 +1,5 @@
+{
+    "version": "1.0.0",
+    "extends": "uuf.template.navbar.toggle-menu.left",
+    "disabled" : true
+}

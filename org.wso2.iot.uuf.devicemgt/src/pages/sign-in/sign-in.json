@@ -1,0 +1,6 @@
+{
+    "version": "1.0.0",
+    "uri": "/signin",
+    "extends": "uuf.template.sign-in",
+    "isAnonymous": true
+}

@@ -20,7 +20,7 @@
  * This backendServiceInvoker contains the wrappers for back end jaggary calls.
  */
 var backendServiceInvoker = function () {
-    var log = new Log("/app/modules/backend-service-invoker.js")
+    var log = new Log("/app/modules/backend-service-invoker.js");
     var publicXMLHTTPInvokers = {};
     var publicWSInvokers = {};
     var publicHTTPClientInvokers = {};
