@@ -1,0 +1,35 @@
+<assembly>
+    <id>resources</id>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <fileSets>
+        <fileSet>
+            <directory></directory>
+            <outputDirectory>app</outputDirectory>
+            <!-- Including files and directories -->
+            <includes>
+                <include>layouts/**</include>
+                <include>pages/**</include>
+                <include>units/**</include>
+                <include>conf/**</include>
+            </includes>
+        </fileSet>
+        <fileSet>
+            <directory>${project.build.directory}/uuf-libary</directory>
+            <outputDirectory></outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>${project.build.directory}/foundation</directory>
+            <outputDirectory>app/components/uuf.template</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <outputDirectory>/cache</outputDirectory>
+            <directory>${project.basedir}/target</directory>
+            <excludes>
+                <exclude>**/*</exclude>
+            </excludes>
+        </fileSet>
+    </fileSets>
+</assembly>

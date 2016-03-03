@@ -1,0 +1,24 @@
+{{#zone "title"}}Pet Store | List Pets | WSO2{{/zone}}
+{{#zone "logo.productName"}}Pet Store{{/zone}}
+{{#zone "content"}}
+    {{#each .}}
+            <div class="col-xs-6 col-md-2">
+                <div class="thumbnail">
+                    <a href="pets/{{id}}">
+                        <h2> {{name}} </h2>
+                        <img src="{{img}}" alt="image of {{name}}" class="pet-image">
+                    </a>
+                    <div class="caption">
+                        <h3 class="pet-price">Price: {{price}}</h3>
+
+                        <div class="ct-product-meta">
+                            <a href="#" class="btn btn-motive ct-product-button">
+                                <i class="fa fa-shopping-cart"></i>
+                                <span>Adopt</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    {{/each}}
+{{/zone}}
