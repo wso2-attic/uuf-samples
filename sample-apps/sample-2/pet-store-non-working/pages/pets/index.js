@@ -5,9 +5,6 @@ function onRequest(context) {
         if(pet.price == 0) {
             pet.price = 'Free !!!';
         }
-        if(!pet.img) {
-            pet.img = context.app.context + '/public/app/images/pet.png';
-        }
     }
 
     return pets;
