@@ -1,0 +1,12 @@
+<div class="col-xs-6 col-md-2">
+    <div class="thumbnail">
+    <a href="pets/{{id}}">
+        <h2> {{name}} </h2>
+        <img src="{{imgUrl}}" alt="image of {{name}}" class="asset-image">
+    </a>
+    {{#each fields}}
+        <h3 class="asset-field">{{name}}: {{value}}</h3>
+    {{/each}}
+    {{defineZone "thumbnail-details"}}
+    </div>
+</div>
