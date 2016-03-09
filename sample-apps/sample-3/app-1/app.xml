@@ -1,0 +1,22 @@
+<app>
+    <pages>
+        <page>
+            <ur>/devices</ur>
+            <isAnonymous>true</isAnonymous>
+        </page>
+        <page>
+            <ur>/device/add</ur>
+            <permissions>
+                <permission>admin/device/add</permission>
+            </permissions>
+        </page>
+        <page>
+            <ur>/device/edit</ur>
+            <permissions>
+                <permission>admin/device/add</permission>
+                <permission>admin/device/edit</permission>
+            </permissions>
+        </page>
+    </pages>
+
+</app>
