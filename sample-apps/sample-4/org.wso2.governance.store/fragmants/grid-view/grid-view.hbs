@@ -1,0 +1,8 @@
+{{layout "uuf.foundation.layout.default"}}
+{{#fillZone "title"}}Enterprise Store | List Assets | WSO2{{/fillZone}}
+{{#fillZone "logo.productName"}}Enterprise Store{{/fillZone}}
+{{#fillZone "content"}}
+    {{#each assets}}
+        {{includeFragment "asset" .}}
+    {{/each}}
+{{/fillZone}}
