@@ -1,0 +1,17 @@
+{{layout "org.wso2.carbon.uuf.foundation.default"}}
+{{#headerTitle}}Add New Pet Type | Pet Store{{/headerTitle}}
+{{#fillZone "logo.productName"}}Pet Store{{/fillZone}}
+{{#fillZone "content"}}
+    <form method="post">
+        <label for="typeList">Pet Type:</label>
+        <select id="typeList">
+            {{#each petTypes}}
+                <option id="{{id}}" value="{{name}}"></option>
+            {{/each}}
+        </select><br/>
+        <label for="name">Pet Name:</label><input type="text" id="name"/>
+        <label for="name">Pet Image:</label><input type="file" id="image"/>
+        <input type="submit" value="Add"/>
+        <input type="reset" value="Clear All"/>
+    </form>
+{{/fillZone}}
